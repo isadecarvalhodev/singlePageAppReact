@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 body {
   background-color: rgb(151, 89, 209);
   display: flex;
@@ -6,7 +8,12 @@ body {
   height: 100vh;
   margin: 0;
 }
-
+h1 {
+  color: rgb(125, 59, 216);
+}
+p {
+  color: rgb(61, 59, 59);
+}
 .box {
   
   border: 5px solid rgb(114, 49, 178);
@@ -17,4 +24,24 @@ body {
   height: 30em;
 }
 
+img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  height: auto;
+  margin-top: 1em;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+ 
+}
+
+.icon {
+  max-width: 50px; 
+  height: auto;
+  margin:  0 0.5em;
+}
 
